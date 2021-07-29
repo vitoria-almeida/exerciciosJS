@@ -1,0 +1,40 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+       function funcionario(nome, cargo, salario) {
+            this.nome = nome
+            this.cargo = cargo
+            this.salario = salario
+            this.salarioBonus = function (salario){
+                return this.salario + (this.salario*20/100)
+            }
+       }
+
+       const func1 = new funcionario('João', 'C', 1500)
+       const func2 = new funcionario('Anne', 'A', 5500)
+       const func3 = new funcionario('Maria', 'C', 1500)
+       const func4 = new funcionario('Lucas', 'B', 2500)
+       const func5 = new funcionario('Amanda', 'B', 2500)
+
+       document.write(
+           `${func1.nome}: receberá o salário de ${func1.salario} + um bônus de 20%, resultando no valor total de $${func1.salarioBonus()} <br/>
+           
+           ${func2.nome}: receberá o salário de ${func2.salario} + um bônus de 20%, resultando no valor total de $${func2.salarioBonus()} <br/>
+
+           ${func3.nome}: receberá o salário de ${func3.salario} + um bônus de 20%, resultando no valor total de $${func3.salarioBonus()} <br/>
+
+           ${func4.nome}: receberá o salário de ${func4.salario} + um bônus de 20%, resultando no valor total de $${func4.salarioBonus()} <br/>
+
+           ${func5.nome}: receberá o salário de ${func5.salario} + um bônus de 20%, resultando no valor total de $${func5.salarioBonus()} <br/>`
+       )
+    </script>
+</body>
+</html>
