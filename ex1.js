@@ -1,7 +1,7 @@
 //Dado um array arr = [3, 3, 4, 7, 8], calcule a soma de cada combinação de 3 possível, e retorne apenas a quantidade de elementos que forem divisíveis por 5.
 
 const array = [3, 3, 4, 7, 8]
-let d = 5
+const d = 5
 
 function getTripletCount() {
     const triplets = []
