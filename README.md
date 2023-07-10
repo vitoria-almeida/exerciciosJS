@@ -19,3 +19,11 @@
     <li>Como adicionar e remover itens do array</li>
     <li>Como combinar dois arrays de forma que os elementos de mesmo índice fiquem juntos</li>
 </ul>
+
+<h2>ex3.js</h2>
+
+<p>Você deve criar um programinha que comece com um valor específico pré-definido entre 0 a 10 para o número que você vai adivinhar (7, por exemplo). Em seguida, o programa vai perguntar para você qual o valor que você deseja chutar e, caso você acerte, ele irá te parabenizar. Caso erre, ele vai te dar mais 2 tentativas. No fim, caso você não acerte nenhuma vez, ele vai imprimir qual era o número inicial.</p>
+
+<ul>
+    <li>utilização de math.random, while e if</li>
+</ul>
