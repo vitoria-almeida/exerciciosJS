@@ -36,3 +36,16 @@
     <li>revisei método join, while e if</li>
     <li>método join</li>
 </ul>
+
+<h2>ex5.js</h2>
+
+<p>Retorne os valores da variável n (número aleatório de 1 a 50) e explicite os números que são múltiplos de 3 ou 5 e de 3 e 5.</p>
+
+<h2>ex6.js</h2>
+
+<p>Dado um array de produtos, retorne os itens que possuem as 3 primeiras letras iguais ao item da searchString.</p>
+
+<ul>
+    <li>método sort -> ordenação</li>
+    <li>feature de search bar</li>
+</ul>
